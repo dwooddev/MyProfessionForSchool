@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2016, 8:15:49 PM
+    Author     : dwood
+#221E1D - Black - Text, Root Background
+#ECEAE0 - Whitish, Content Area Background
+#63AA9C - Turquoise, Borders
+#E9633B - Salmon, Flair
+
+*/
+
+
+/*
+body{ background-color: #221E1D;font-family: 'Jura', sans-serif}
+
+table{border-color: #63AA9C; border: "5"; margin-left: auto;
+    margin-right: auto; font-size: 145%}
+p{ color: #221E1D; font-family: 'Jura', sans-serif; font-size: 145%}
+ul{font-size: 145%}
+header{text-align: center; width: 980px; color:#ECEAE0; padding: 5px}
+
+section{float: left; background-color: #ECEAE0; margin-top: 100px;
+         margin-left: 200px; margin-right: 200px; margin-bottom: 100px}
+content{margin:30px}
+footer{clear: both}
+*/
+#loginform{
+    visibility: hidden;
+}
+header{text-align: center; 
+       width: 980px; 
+       color:#ECEAE0; 
+       padding: 5px;
+       border: 6px solid #63AA9C;
+}
+h1,h2,h3, h4{color: #ECEAE0;
+             background-color: #E9633B; 
+}
+nav{line-height: 30px; 
+    color:#221E1D;
+    background-color: #221E1D;
+    height:400px;
+    width:100px;
+    padding:5px;
+    text-align: center;
+    border: 6px solid #63AA9C ;
+    float: left;
+}
+header ul{
+    color:#ECEAE0;
+    background-color: #E9633B ;
+    padding: 10px;
+}
+header ul li{
+    list-style: none;
+    text-align: center;
+    border: 3px solid;
+    padding: 4px;
+    border-color:#63AA9C; 
+    display: inline;
+}
+button{
+    background-color: #E9633B;
+    color: #ECEAE0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    display: inline-block;
+}
+aside input {
+        background-color: #E9633B;
+    color: #ECEAE0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    display: inline-block;
+}
+ul li a { 
+    padding: 0px;
+    width: 100%; 
+    height: 100%; 
+    text-decoration: none; 
+    color: #ECEAE0;
+}
+nav ul{
+    width: 80px;
+    color:#ECEAE0;
+    background-color: #E9633B ;
+    padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    text-align: center;
+    border: 3px solid;
+    padding: 4px;
+    border-color:#63AA9C; 
+}
+main{
+    background: #ECEAE0;
+    overflow: scroll;
+    width:600px;
+    height: 400px;
+    padding: 10px;
+    float: left;
+}
+aside{
+    color: #ECEAE0;
+    border:6px solid;
+    border-color:#63AA9C; 
+    float: left;
+    height: 400px;
+    width:238px;
+    padding: 5px;
+    overflow: scroll;
+}
+content{
+    padding: 100px;
+    margin: 150px;
+   
+}
+footer{
+       width: 980px; 
+       color:#ECEAE0; 
+       padding: 5px;
+       border: 6px solid #63AA9C;
+}
+body{
+    background:#221E1D;
+    font-family: 'Jura', sans-serif;
+}
+p{ color: #221E1D;  font-size: 145%}
+
+table{border: 4px solid #63AA9C;}
+td{border: 2px solid #63AA9C}
+th{border: 3px solid #63AA9C}

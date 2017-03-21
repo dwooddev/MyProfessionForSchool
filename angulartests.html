@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="examApp">
+<head>
+<meta charset="utf-8">
+<title>My AngularJS App</title>
+<link rel="stylesheet" href="styles/app.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.js"></script>
+<script src="js/app.js"></script>
+</head>
+<body ng-controller="getQuestions">
+<form id = "examForm">
+    <b>Question 1: {{exam.question1}}</b></br>
+    A:) <input type = "radio" name = "q1answer" value ={{exam.answerA}}>{{exam.answerA}} </br>
+    B:) <input type = "radio" name = "q1answer" value ={{exam.answerB}}>{{exam.answerB}} </br>
+    C:) <input type = "radio" name = "q1answer" value ={{exam.answerC}}>{{exam.answerC}} </br>
+</form>
+</body>
+</html>
